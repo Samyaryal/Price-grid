@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Karla;
+    font-size: 16px;
+  }
+.container {
+    width: 80%;
+    margin: 80px auto;
+  }
+  
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+h2{
+    color: hsl(71, 73%, 54%);
+}
+.paragraph{
+    color: hsl(218, 22%, 67%);
+  width: 80%;
+  line-height: 27px;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-container {
+    width: 60%;
+    margin: 50px auto;
+  }
+.left-side {
+    background-color: hsl(179, 62%, 43%);
+  }
+h3 {
+    color: hsl(204, 43%, 93%);
+    font-size: 1.7em;
+}
+h4 {
+    color: hsl(204, 43%, 93%);
+    font-size: 1.7em;
+}
+span {
+    font-size: 1.8em;
+  }
+.pricing{
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+.grid-paragraph-left {
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 50px;
+}
+.main-btn {
+    color: hsl(204, 43%, 93%);
+    font-size: 20px;
+    background-color: hsl(71, 73%, 54%);
+    margin: 50px 0px;
+    padding: 20px 150px;
+    border-radius: 10px;
+  }
+.right-side {
+    background-color: hsl(179, 62%, 50%);
+  }
+.grid-paragraph-right {
+    color: hsl(204, 43%, 93%);
+    opacity: 80%;
+  }
