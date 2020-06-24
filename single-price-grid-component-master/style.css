@@ -68,4 +68,9 @@ span {
 .grid-paragraph-right {
     color: hsl(204, 43%, 93%);
     opacity: 80%;
-  }
+}
+footer > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
